@@ -28,6 +28,10 @@ gulp.task('js', ['common-js'], function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/mmenu/dist/jquery.mmenu.all.js',
+		'app/libs/equalHeights/equalheights.js',
+		'app/libs/owl.carousel/owl.carousel.min.js',
+		'app/libs/fotorama/fotorama.js',
+		'app/libs/selectize/js/standalone/selectize.min.js',
 		'app/js/common.min.js', // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))
